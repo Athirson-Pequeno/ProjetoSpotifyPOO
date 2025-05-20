@@ -60,7 +60,7 @@ public abstract class Midia {
 
     @Override
     public String toString() {
-        String texto = "———————————————————————————————————————————————————————————————————————————————————————————————————————\n"+ "»  "+titulo + " - " + artista + " - " + formatarDuracao(duracao);
-        return texto;
+        return "———————————————————————————————————————————————————————————————————————————————————————————————————————\n"+
+                "»  "+titulo + " - " + artista + " - " + formatarDuracao(duracao);
     }
 }

@@ -7,8 +7,6 @@ import java.util.Scanner;
 public class MenuLogin {
 
     private static final Scanner scanner = new Scanner(System.in);
-    private static final Catalogo catalogo = new Catalogo();
-    private static final GerenciarPlaylists gerenciarPlaylists = new GerenciarPlaylists();
     private static final Cadastro cadastro = new Cadastro();
     protected static Usuario usuarioLogado = null;
 
@@ -101,9 +99,5 @@ public class MenuLogin {
         }else {
             Menu.mostrarMenu();
         }
-    }
-
-    public static Usuario getUsuarioLogado() {
-        return MenuLogin.usuarioLogado;
     }
 }

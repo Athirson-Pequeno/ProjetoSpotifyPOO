@@ -10,8 +10,6 @@ public class Menu {
     private static final Scanner scanner = new Scanner(System.in);
     private static final Catalogo catalogo = new Catalogo();
     private static final GerenciarPlaylists gerenciarPlaylists = new GerenciarPlaylists();
-    private static final Cadastro cadastro = new Cadastro();
-    protected static Usuario usuarioLogado = MenuLogin.usuarioLogado;
 
     public static void mostrarMenu() {
 

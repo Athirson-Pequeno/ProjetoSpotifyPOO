@@ -246,12 +246,6 @@ public class Catalogo {
         return midias;
     }
 
-    public void exibirCatalogo() {
-        for (Midia midia : midias) {
-            System.out.println(midia);
-        }
-    }
-
     public List<Midia> buscarMidiaPorTitulo(String titulo) {
         List<Midia> resultado = new ArrayList<>();
         for (Midia midia : midias) {
